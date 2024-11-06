@@ -1,0 +1,26 @@
+
+public class BinarySearch {
+
+	public static void main(String[] args) {
+		int[] arr = { 2, 3, 4, 10, 40 };
+		int target = 10;
+		int result = binarySearch(arr, target);
+
+		if (result == -1) {
+			System.out.println("Element not found in array.");
+		} else {
+			System.out.println("Element found at index: " + result);
+		}
+
+	}
+
+	private static int binarySearch(int[] arr, int target) {
+		// TODO Auto-generated method stub
+
+		int left = 0;
+		int right = arr.length - 1;
+
+		return 0;
+	}
+
+}

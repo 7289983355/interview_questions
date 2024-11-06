@@ -1,0 +1,17 @@
+package stringCoding_1;
+
+public class LongestSubStringWithOutRepeatingCharacterNaive {
+
+	public static void main(String[] args) {
+		    String Input = "abcabcbb";
+//			Output: 3
+//			Explanation: The answer is "abc", with the length of 3.
+//
+//		    for(int i=0) {
+//		    	
+//		    }
+//		    
+		    
+	}
+
+}

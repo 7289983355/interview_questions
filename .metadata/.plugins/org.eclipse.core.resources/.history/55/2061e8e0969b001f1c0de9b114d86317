@@ -1,0 +1,31 @@
+package stringCoding_1;
+
+public class LongestSubStringWithOutRepeatingCharacterNaive {
+
+	public static void main(String[] args) {
+		String s = "abcabcbb";
+//			Output: 3
+//			Explanation: The answer is "abc", with the length of 3.
+//
+
+//		for (int start = 0; start < s.length(); start++) {
+//
+//			for (int end = start + 1; end <= s.length(); end++) {
+//
+//				
+//
+//			}
+//		}
+		
+		  int n = s.length();
+	        int maxLength = 0;
+
+	        // Generate all substrings
+	        for (int start = 0; start < n; start++) {
+	            for (int end = start + 1; end <= n; end++) {
+	              
+	            	System.out.println(s.charAt(start) + s.charAt(end));  
+	            
+	            }
+
+	}

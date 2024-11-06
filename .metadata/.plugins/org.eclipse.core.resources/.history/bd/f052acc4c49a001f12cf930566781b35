@@ -1,0 +1,26 @@
+package stringCoding_1;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class CountCharacterOccurance {
+
+	public static void main(String[] args) {
+
+		String str = "dharmesh kumar";
+
+		countOccurance(str);
+
+	}
+
+	private static void countOccurance(String str) {
+
+		Map<Character, Integer> frequencyCount = new HashMap<>();
+
+		for (char c : str.toCharArray()) {
+
+		}
+
+	}
+
+}

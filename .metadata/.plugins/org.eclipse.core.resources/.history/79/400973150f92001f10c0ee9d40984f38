@@ -1,0 +1,23 @@
+package Recusion_And_BackTracking;
+
+public class Reverse_a_Number {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		reverseNumber(1234); // 4321
+		// 4
+
+	}
+
+	private static int reverseNumber(int num) {
+		// TODO Auto-generated method 
+		int reverseNum=0;
+		
+
+		 num%10+reverseNumber(num/10);
+		return  reverseNum;
+		
+	}
+
+}

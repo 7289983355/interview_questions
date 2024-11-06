@@ -1,0 +1,21 @@
+package stringCoding_1;
+
+public class CheckStringhasUniqueCharacters {
+
+	public static void main(String[] args) {
+	
+		boolean[] seen = new boolean[256];
+		
+		hasUniqueCharacters("dharmesh", seen);
+
+	}
+
+	private static void hasUniqueCharacters(String string, boolean[] seen) {
+		
+		for(int i=0; i<string.length();i++) {
+			
+		}
+		
+	}
+
+}

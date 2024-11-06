@@ -1,0 +1,24 @@
+package array;
+
+public class SplitRegexExample {
+	public static void main(String[] args) {
+		String str = "  Hello World   ";
+		// Split using multiple delimiters
+	//	String[] strArr = str.split(" ");
+		
+		
+		String[] strArr = str.trim().split("\\s+");
+		String[] strArr1 = str.trim().split(",");
+
+		// Print the resulting array
+		for (String data : strArr) {
+			System.out.print(data);
+		}
+		
+		System.out.println();
+		System.out.println("================");
+		for (String data1 : strArr1) {
+			System.out.print(data1);
+		}
+	}
+}

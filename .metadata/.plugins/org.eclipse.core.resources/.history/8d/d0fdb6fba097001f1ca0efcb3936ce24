@@ -1,0 +1,28 @@
+package graph;
+
+import java.util.ArrayList;
+
+public class Classroom {
+	
+	
+	ArrayList [] adajencyList;
+
+	static class Edge {
+		int src;
+		int dest;
+
+		Edge(int s, int d) {
+			this.src = s;
+			this.dest = d;
+		}
+
+	}
+
+	public static void main(String[] args) {
+		
+		int V=4;
+		
+
+	}
+
+}

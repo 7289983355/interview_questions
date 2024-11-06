@@ -1,0 +1,13 @@
+package array;
+public class SplitRegexExample {
+    public static void main(String[] args) {
+        String str = "Hello World";
+        // Split using multiple delimiters
+        String[] fruits = str.split("[;: |]+");
+
+        // Print the resulting array
+        for (String fruit : fruits) {
+            System.out.println(fruit);
+        }
+    }
+}

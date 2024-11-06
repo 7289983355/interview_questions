@@ -1,0 +1,11 @@
+package string;
+
+public class IsPalindrome {
+
+	public static void main(String[] args) {
+		String palindromeTest = "A man, a plan, a canal: Panama";
+		System.out.println("Is Palindrome: " + isPalindrome(palindromeTest)); // Output: true
+
+	}
+
+}

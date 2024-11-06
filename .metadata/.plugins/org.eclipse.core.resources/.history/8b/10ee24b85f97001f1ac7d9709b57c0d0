@@ -1,0 +1,14 @@
+package HeapMin;
+
+import java.util.PriorityQueue;
+
+public class MinHeap {
+
+	public static void main(String[] args) {
+		// create a minHeap
+
+		PriorityQueue<Integer> minHeap = new PriorityQueue<>();
+
+	}
+
+}

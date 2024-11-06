@@ -1,0 +1,18 @@
+package Recusion_And_BackTracking;
+
+public class PrintSquare {
+
+	public static void main(String[] args) {
+		
+		printSquare(5 ,3);
+
+	}
+
+	private static int printSquare(int number, int power) {
+
+		
+		return number* printSquare(number ,power-1);
+		
+	}
+
+}

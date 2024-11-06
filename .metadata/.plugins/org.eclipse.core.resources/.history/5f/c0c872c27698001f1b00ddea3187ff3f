@@ -1,0 +1,17 @@
+package loop;
+
+public class PrintTraingle {
+//	
+//	*
+//	**
+//	***
+	public static void main(String[] args) {
+		printTriangle(5);
+
+	}
+
+	public static void printTriangle(int rows) {
+
+	}
+
+}

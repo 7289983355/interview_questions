@@ -1,0 +1,32 @@
+package stringCoding_1;
+
+/*
+ * Given a string remove duplicate from the string without using any additional data structure.
+ * */
+public class RemoveDuplicate {
+
+	public static void main(String[] args) {
+		System.out.println(duplicatCheck());
+
+	}
+
+	private static String duplicatCheck() {
+		String duplicate = "Dharmesesh";
+
+		StringBuilder result = new StringBuilder();
+
+		String lowerStr = duplicate.toLowerCase();
+
+		for (char character : lowerStr.toCharArray()) {
+
+			if (result.indexOf("" + character)!= -1) {
+
+				 result.append(character).toString();
+			}
+
+		}
+
+		return result;
+	}
+
+}

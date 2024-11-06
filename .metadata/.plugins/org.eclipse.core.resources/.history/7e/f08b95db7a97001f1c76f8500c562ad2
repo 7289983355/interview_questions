@@ -1,0 +1,19 @@
+package HeapMin;
+
+import java.util.List;
+
+public class TopKFrequentElements {
+
+	  public static void main(String[] args) {
+	        TopKFrequentElements solution = new TopKFrequentElements();
+	        int[] nums = {1, 1, 1, 2, 2, 3};
+	        int k = 2;
+	        List<Integer> result = solution.topKFrequent(nums, k);
+	        System.out.println(result); // Output: [1, 2]
+	    }
+
+	private List<Integer> topKFrequent(int[] nums, int k) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+}

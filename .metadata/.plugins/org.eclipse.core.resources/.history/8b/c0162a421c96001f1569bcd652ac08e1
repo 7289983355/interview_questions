@@ -1,0 +1,30 @@
+package array;
+
+public class ReverseWords {
+	public static void main(String[] args) {
+		String str ="  Hello World   ";
+		// Split using multiple delimiters
+		String[] strArr = str.split(" ");
+		
+		StringBuilder sb =new StringBuilder();
+		
+		for(int i=0 ;i<strArr.length ;i++) {
+			
+			if(strArr[i].isEmpty()) {
+				continue;
+			}
+			
+			
+			sb.append(strArr[i]);
+			sb.append("");
+			
+		}
+		
+		
+
+		// Print the resulting array
+		for (String data : strArr) {
+			System.out.println(data);
+		}
+	}
+}

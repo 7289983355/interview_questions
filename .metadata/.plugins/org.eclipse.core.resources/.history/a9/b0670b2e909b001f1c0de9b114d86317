@@ -1,0 +1,23 @@
+package stringCoding_1;
+
+public class AllPermutationOfStringNaive {
+
+	public static void main(String[] args) {
+
+		String input = "aabcccccaaa";
+		// String output= "a2b1c5a3";
+		compress(input);
+
+	}
+
+	private static void compress(String input) {
+
+		StringBuilder sb = new StringBuilder();
+
+		for (int i = 0; i < input.length(); i++) {
+
+		}
+
+	}
+
+}

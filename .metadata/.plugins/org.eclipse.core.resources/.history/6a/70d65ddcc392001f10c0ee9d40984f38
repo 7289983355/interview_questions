@@ -1,0 +1,23 @@
+package Recusion_And_BackTracking;
+
+public class Pattern_triangle_Recursive {
+//	****
+//	***
+//	**
+//	*
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		patternT();
+
+	}
+
+	private static void patternT(int num) {
+		// TODO Auto-generated method stub
+		
+        System.out.println("*");
+		
+	}
+
+}

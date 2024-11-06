@@ -1,0 +1,12 @@
+package Recusion_And_BackTracking;
+
+public class Both_1to5And5to1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		print(num);
+
+	}
+
+}

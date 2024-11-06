@@ -1,0 +1,30 @@
+package Recusion_And_BackTracking;
+
+public class Reduce_a_Number_to_Zero {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int number = 8;
+
+		System.out.println(steps(number));
+	}
+
+	private static int steps(int number) {
+		// TODO Auto-generated method stub
+
+
+			if (number % 2 == 0) {
+				number = number / 2;
+
+			} else {
+				number = number - 1 +steps(number);
+			}
+	
+		
+		
+		return number;
+
+	}
+
+}

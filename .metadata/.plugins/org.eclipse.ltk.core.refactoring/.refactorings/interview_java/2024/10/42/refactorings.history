@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;stack.Nearest_Greater_to_left.java&apos; to &apos;Nearest_Greater_to_Left.java&apos;&#x0D;&#x0A;- Original project: &apos;interview_java&apos;&#x0D;&#x0A;- Original element: &apos;stack.Nearest_Greater_to_left.java&apos;&#x0D;&#x0A;- Renamed element: &apos;stack.Nearest_Greater_to_Left.java&apos;" description="Rename compilation unit &apos;Nearest_Greater_to_left.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;stack{Nearest_Greater_to_left.java" name="Nearest_Greater_to_Left.java" references="false" stamp="1729181117289" version="1.0"/>
+</session>

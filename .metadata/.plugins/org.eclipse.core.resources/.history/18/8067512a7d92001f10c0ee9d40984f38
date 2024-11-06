@@ -1,0 +1,26 @@
+package Recusion_And_BackTracking;
+
+public class Checking_Array_is_Sorted {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int[] arr= {2,4,5,7,8,6,9};  //A array is sorted if arr[i]<arr[i+1];
+		
+		checkArraySorted(arr);
+
+	}
+
+	private static boolean checkArraySorted(int[] arr) {
+	
+		return helper(arr,0);
+	}
+
+	private static boolean helper(int[] arr, int i) {
+		// TODO Auto-generated method stub
+		
+		return arr[i] <arr[i+1]?true:false && helper(arr ,i)
+		
+	}
+
+}

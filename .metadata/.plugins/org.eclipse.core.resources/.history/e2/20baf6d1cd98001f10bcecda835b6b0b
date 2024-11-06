@@ -1,0 +1,22 @@
+package basicMath_problem;
+
+public class Factorial {
+
+	public static void main(String[] args) {
+		System.out.println(factorial(5));
+
+	}
+
+	private static int factorial(int number) {
+
+		if (number == 1)
+			return 1;
+		
+		  int num=factorial(number - 1);
+		  System.out.println(num);
+		
+		return  1 * factorial(number - 1);
+
+	}
+
+}

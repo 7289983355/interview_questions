@@ -1,0 +1,30 @@
+package Recusion_And_BackTracking;
+
+public class count_Number_of_zero {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int num=90870;
+		
+		countNumberofZero(num);
+
+	}
+
+	private static void countNumberofZero(int num) {
+		// TODO Auto-generated method stub
+		int count;
+		while(num==0) {
+			
+			int remainder=num%2;
+			if(remainder==0) {
+				count++;
+			}
+			
+			num=num/10;
+			
+		}
+		
+	}
+
+}

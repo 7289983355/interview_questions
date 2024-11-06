@@ -1,0 +1,25 @@
+package array;
+
+public class Product_of_Array_Except_Self {
+
+	public static void main(String[] args) {
+		int[] nums = { 1, 2, 3, 4 };
+		int product = 1;
+		
+		extracted(nums, product);
+
+	}
+
+	private static void extracted(int[] nums, int product) {
+		for (int p : nums) {
+			product *= p;
+		}
+		System.out.println(product);
+		
+		for (int p : nums) {
+			
+			return new int[] {product/p};
+		}
+	}
+
+}

@@ -1,0 +1,12 @@
+package stringCoding_1;
+
+public class AllPermutationOfStringNaive {
+
+	public static void main(String[] args) {
+
+		String input = "aabcccccaaa";
+		// String output= "a2b1c5a3";
+
+	}
+
+}

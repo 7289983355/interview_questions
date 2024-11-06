@@ -1,0 +1,19 @@
+package slidingWindow;
+
+public class LongestSubstringWithoutRepeating {
+
+	public static void main(String[] args) {
+		String input = "abcabcbb";
+		int result = lengthOfLongestSubstring(input);
+		System.out.println("Length of the longest substring without repeating characters: " + result);
+	}
+
+	private static int lengthOfLongestSubstring(String input) {
+		// TODO Auto-generated method stub
+		
+		int s=0;
+		int e=0;
+		
+		return 0;
+	}
+}

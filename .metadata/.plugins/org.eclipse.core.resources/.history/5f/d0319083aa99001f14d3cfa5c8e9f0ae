@@ -1,0 +1,30 @@
+package Recusion_And_BackTracking;
+
+public class PrintSquareOptimsed {
+
+	public static void main(String[] args) {
+
+		System.out.println(printSquare(5,4));
+
+	}
+
+	private static int printSquare(int number, int power) {
+
+		if (power == 0) {
+			return 1;
+		}
+
+		 int HalsfProduct= number * printSquare(number, power/2);
+		 
+		  int fullProduct= HalsfProduct*HalsfProduct;
+		  
+		  if(number%2!=0) {
+			  
+			return  fullProduct*number;
+		  }
+		 
+		  return fullProduct;
+
+	}
+
+}

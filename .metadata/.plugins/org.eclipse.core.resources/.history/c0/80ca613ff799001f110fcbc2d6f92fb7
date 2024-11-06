@@ -1,0 +1,21 @@
+package string;
+
+public class countAndSay {
+
+	public static void main(String[] args) {
+		int n = 5; // Example input
+		System.out.println("Count and Say of " + n + ": " + countAndSay(n)); // Output: "312211"
+	}
+
+	private static String countAndSay(int n) {
+//		1
+//		11
+//		21
+//		1211
+//		111221
+		
+		
+		return null;
+	}
+
+}

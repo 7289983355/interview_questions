@@ -1,0 +1,10 @@
+package array;
+
+public class MaximumSubArray_Brute {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

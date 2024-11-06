@@ -1,0 +1,57 @@
+package linkedListDemo;
+
+public class LinkedList {
+
+	Node head;
+
+	class Node {
+		int data;
+		Node next;
+
+		Node(int data) {
+
+			this.data = data;
+			this.next = null;
+		}
+	}
+
+	public void add(int data) {
+
+		Node newnode = new Node(data);
+
+		if (head == null) {
+			head = newnode;
+		}
+
+		Node current = head;
+
+		while (current.next != null) {
+
+			current = current.next; // ->A->B->C->D->null
+		}
+		current.next = newnode;
+
+	}
+
+	private void display() {
+		
+		Node current=head;
+		
+		while(current.next!=null) {
+			
+			System.out.println(current.data +" -> ");
+		}
+
+	}
+
+	public static void main(String[] args) {
+
+		LinkedList list = new LinkedList();
+		list.add(10);
+		list.add(20);
+		list.add(30);
+		list.display(); // Output: 10 -> 20 -> 30 -> null
+
+	}
+
+}

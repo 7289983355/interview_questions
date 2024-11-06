@@ -1,0 +1,26 @@
+package HeapMin;
+
+import java.util.PriorityQueue;
+
+public class KthSmallestElement {
+
+	public static void main(String[] args) {
+		
+		int [] arr= {2,3,4,5,6,9,8};
+		int k=3;
+		
+        PriorityQueue<Integer> minHeap = new PriorityQueue<>(k);
+       
+       
+        for(int number:arr) {
+        	minHeap.add(number);
+        }
+	
+        
+      
+
+	}
+	
+	
+
+}
