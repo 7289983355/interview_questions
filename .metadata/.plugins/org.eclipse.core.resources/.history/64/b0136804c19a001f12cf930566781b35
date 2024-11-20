@@ -1,9 +1,0 @@
-package stringCoding_1;
-
-public class Snippet {
-	String input = "Hello, World! 123.";
-	String cleaned = input.replaceAll("[^a-zA-Z0-9]", "");
-	System.out.println(cleaned);
-	
-}
-
